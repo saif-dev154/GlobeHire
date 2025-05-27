@@ -1,0 +1,36 @@
+  @extends('agent.layouts.app')
+
+  @section('title', 'Approved Candidates – Schedule Flights')
+
+  @section('content')
+  <div class="container py-4">
+    <div class="card shadow-sm">
+      <div class="card-header bg-primary">
+        <div class="d-flex align-items-center">
+          <i class="bi bi-calendar-event-fill me-2"></i>
+          <h5 class="mb-0">Approved Candidates</h5>
+        </div>
+      </div>
+      <div class="card-body p-0">
+        @if ($visas->isEmpty())
+          <div class="alert alert-info m-3">
+            There are no approved visas to schedule flights for.
+          </div>
+        @else
+          <div class="table-responsive">
+          
+          </div>
+        @endif
+      </div>
+    </div>
+  </div>
+  @endsection
+
+  @push('scripts')
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        .forEach(el => new bootstrap.Tooltip(el));
+    });
+  </script>
+  @endpush
