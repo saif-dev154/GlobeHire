@@ -84,12 +84,12 @@
 
 
       {{-- Support --}}
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a href="javascript:;" class="nav-link d-flex align-items-center">
           <i class="material-symbols-outlined">support_agent</i>
           <span class="menu-title ms-2">Support</span>
         </a>
-      </li>
+      </li> --}}
 
     </ul>
   </nav>

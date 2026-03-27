@@ -33,11 +33,13 @@ class Job extends Model
         'visa_sponsor'           => 'boolean',
     ];
 
-    // Relationship to the employer
     public function user()
     {
         return $this->belongsTo(User::class, 'employer_id');
     }
 
-    // (Remove the incorrect agent()—you’re handling agents in the controller)
+    public function applications()
+    {
+        return $this->hasMany(Application::class, 'job_id');
+    }
 }

@@ -87,13 +87,13 @@
       </li>
 
       {{-- Support Section Label --}}
-      <li class="nav-item px-3 mt-4 text-warning small text-uppercase">Help & Support</li>
+      {{-- <li class="nav-item px-3 mt-4 text-warning small text-uppercase">Help & Support</li>
       <li class="nav-item">
         <a href="javascript:;" class="nav-link d-flex align-items-center">
           <i class="material-icons-outlined me-2">support_agent</i>
           <span class="menu-title">Support</span>
         </a>
-      </li>
+      </li> --}}
 
     </ul>
   </nav>

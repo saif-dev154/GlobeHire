@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="blue-theme">
+<html lang="en" data-bs-theme="light-theme">
 
 <head>
     <meta charset="utf-8" />
@@ -89,7 +89,7 @@
     <!--end overlay-->
 
     <!--start footer-->
-    @include('agent.layouts.footer')
+    {{-- @include('agent.layouts.footer') --}}
     <!--end footer-->
 
     <!--start cart-->
