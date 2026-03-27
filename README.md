@@ -349,4 +349,5 @@ This project is licensed under the [MIT License](LICENSE).
 <div align="center">
   Made with ❤️ using Laravel 11 · Bootstrap 5 · MySQL
 </div>#   G l o b e H i r e  
+ #   G l o b e H i r e  
  
