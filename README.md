@@ -195,10 +195,14 @@ Visit `http://127.0.0.1:8000`
 
 | Role | Email | Password |
 |---|---|---|
-| Admin | admin@globehire.com | password |
-| Employer | employer@globehire.com | password |
-| Agent | agent@globehire.com | password |
-| Candidate | candidate@globehire.com | password |
+| Admin | a1@a | a1 |
+| Admin | a2@a | a2 |
+| Employer | e1@e | e1 |
+| Employer | e2@e | e2 |
+| Agent | ag1@a | ag1 |
+| Agent | ag2@a | ag2 |
+| Candidate | c1@c | c1 |
+| Candidate | c2@c | c2 |
 
 ---
 
@@ -351,8 +355,7 @@ globehire/
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/saif-dev154)
 [![Fiverr](https://img.shields.io/badge/Fiverr-Hire%20Me-1DBF73?style=flat-square&logo=fiverr&logoColor=white)](https://fiverr.com)
 
-> CEO & Founder of **SkillLeo SMC PVT LTD** · Laravel & PHP Developer · 6+ years experience
-
+ 
 ---
 
 ## 📄 License
